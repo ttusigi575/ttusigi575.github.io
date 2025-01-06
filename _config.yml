@@ -1,0 +1,46 @@
+# Site settings
+title: 뚜식이가 추천하는 싸고 예쁜 쇼핑몰
+description: '싸고 예쁜 쇼핑몰'
+url: 'https://ttusigi575.github.io'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+timezone: Asia/Seoul
+
+author:
+  name: 'ttusigi575'
+  email: ttusigi575@gmail.com
+  twitter_username:
+  facebook_username: 
+  github_username: 
+  linkedin_username: 
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 50
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
