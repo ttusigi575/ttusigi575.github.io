@@ -22,7 +22,7 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
