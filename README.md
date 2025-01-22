@@ -1,2 +1,1 @@
-# ttusigi575.github.io
-ttusigi575.github.io
+# buygo1214.github.io
