@@ -3,10 +3,6 @@ description: '최고의 가격으로 스마트한 쇼핑을 경험하세요!'
 url: 'https://ttusigi575.github.io'
 baseurl: ''
 
-# title: Your awesome title
-# email: your-email@example.com
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 author:
   name: 'Smart Shopping Hub'
   email: snlee6999@gmail.com.com
@@ -15,6 +11,7 @@ author:
   github_username: 
   linkedin_username: 
  
+paginate: 50
 
 defaults:
   -
@@ -26,7 +23,7 @@ defaults:
 
 # Build settings
 destination: _site
-paginate: 50
+
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
